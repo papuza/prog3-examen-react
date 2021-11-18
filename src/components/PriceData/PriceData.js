@@ -43,7 +43,7 @@ const PriceData = ({ plan }) => {
                 </List>
 
                 <Tooltip title="Price" disableInteractive >
-                    <Button><Typography variant="h2" component="h1"> ${plan.price}</Typography></Button>
+                    <Button><Typography variant="h2" component="h1"> ${plan.price}/mo</Typography></Button>
                 </Tooltip>
 
                 <Button variant="outlined" color="success"><Typography variant="h5" component="h1">Comprar</Typography></Button>
