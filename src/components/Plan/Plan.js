@@ -11,6 +11,7 @@ import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 
 const Plan = ({ tier }) => {
+  console.log()
   return (
     <Grid
       item
